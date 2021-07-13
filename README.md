@@ -1,5 +1,6 @@
 # PickleC2
 PickleC2 is a post-exploitation and lateral movements framework
+![image](c2.png)
 
 ## Documentation
 
@@ -40,3 +41,6 @@ sudo apt install python3 python3-pip
 python3 -m pip install -r requirements.txt
 ./run.py
 ```
+
+![image](c2.png)
+
