@@ -1,0 +1,12 @@
+netifaces
+pysqlite3
+requests
+flask
+pytest-shutil
+pybase64
+tabulate
+argparse
+threaded
+logging
+colorama
+
