@@ -1,15 +1,15 @@
 # PickleC2
 PickleC2 is a post-exploitation and lateral movements framework
 
-# Documentation
+## Documentation
 
-# Overview
+## Overview
 
 PickleC2 is a simple C2 framework written in python3 used to help the community in Pentreation Testers in there red teaming engagements.  
 
 PickleC2 has ability to import your own powershell module for Post-Exploitation and Lateral Movemnet or automate process.   
 
-# Features 
+## Features 
 
 There is a one implant for the beta version which is powershell.   
 
@@ -19,7 +19,7 @@ There is a one implant for the beta version which is powershell.
 
 3. PickleC2 supports anyone who would like to add his own PowerShell Module
 
-# Future Features
+## Future Features
 
 In the up coming updates pickle will support:   
 
@@ -31,7 +31,7 @@ In the up coming updates pickle will support:
 
 4. HTTPS communications will be supported. NOTE: Even HTTP communications is fully encrypted.
 
-# Install
+## Install
 
 ```bash
 git clone https://github.com/xRET2pwn/PickleC2.git
