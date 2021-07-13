@@ -48,6 +48,16 @@ def GenerateImplant(conn,command):
 			listener_port = results[0][2]
 
 			try:
+				if os.path.isdir('data'):
+					if os.path.isdir('data/implant'):
+						pass
+					else:
+						os.mkdir("implant")
+
+				else:
+					os.mkdir("data")
+					os.mkdir("data/implant")
+
 				os.mkdir("data/implant/%s" % implant_name)
 			except:
 
@@ -72,10 +82,10 @@ def GenerateImplant(conn,command):
 
 				StopImplant(conn,implant_name)
 
-	except:
+	except ValueError:
 
 		print ("[%s] There an error found!!" % color.red("-"))
-
+		print (ValueError)
 
 def StopImplant(conn,name):
 
