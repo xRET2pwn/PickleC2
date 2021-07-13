@@ -1,5 +1,5 @@
 # PickleC2
-PickleC2 is a post-exploitation and lateral movements framework
+PickleC2 is a post-exploitation and lateral movements framework  
 ![image](c2.png)
 
 ## Documentation
