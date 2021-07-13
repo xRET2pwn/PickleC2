@@ -42,5 +42,3 @@ python3 -m pip install -r requirements.txt
 ./run.py
 ```
 
-![image](c2.png)
-
