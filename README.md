@@ -4,6 +4,8 @@ PickleC2 is a post-exploitation and lateral movements framework
 
 ## Documentation
 
+[ReadTheDocs](https://picklec2.readthedocs.io/)
+
 ## Overview
 
 PickleC2 is a simple C2 framework written in python3 used to help the community in Pentreation Testers in there red teaming engagements.  
