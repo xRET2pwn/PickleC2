@@ -136,6 +136,9 @@ def decrypt_results(name,results):
 		key = key[0][0]
 		print ("\n[%s] %s Results is returned\n" % (color.green("+"),name))
 		dec_results = encryption.DecryptString(results,key)
+		file = open("data/implant/%s/result.dec" % name,"w")
+		file.write(dec_results)
+		file.close()
 		return True
 
 	except:
